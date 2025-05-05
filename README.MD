@@ -1,0 +1,1 @@
+### extension doesn't collect any data
