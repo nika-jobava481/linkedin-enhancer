@@ -1,0 +1,36 @@
+/* <ul>
+            <li><span>Ctrl + B</span> or <span>Alt + B</span>: Bold</li>
+            <li><span>Ctrl + I</span> or <span>Alt + I</span>: Italic</li>
+            <li><span>Ctrl + Q</span> or <span>Alt + Q</span>: Bullet List</li>
+            <li><span>Ctrl + M</span> or <span>Alt + M</span>: Numbered List</li>
+            <li><span>Ctrl + U</span> or <span>Alt + U</span>: Underline</li>
+        </ul> */
+.artdeco-modal__content-custom {
+  overflow-x: visible !important;
+  min-height: 5.6rem;
+  display: block;
+}
+
+.shortcuts-list {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: absolute;
+  right: -260px;
+  background-color: #1b1f23;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #5e5e5e;
+}
+.shortcuts-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.shortcuts-list ul li {
+  font-size: 12px;
+}
+.shortcuts-list ul li span {
+  border: 1px solid #5e5e5e;
+  border-radius: 4px;
+}/*# sourceMappingURL=shortcuts.css.map */
